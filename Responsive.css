@@ -1,8 +1,67 @@
-@media screen and (max-width: 426px) {
-    .main{
-
+@media (max-width: 426px) {
+   
+    .main {
         background-image: url("assets/images/imgbg.jpg");
         width: 170vw;
         height: 130vh;
-        }
+    }
+
+    .main .box {
+        height: 130vh;
+    }
+    nav{
+        max-width: 120vw;
+    }
+
+    .secFirst_tv {
+        position: relative;
+    }
+
+    .first {
+        flex-direction: column;
+        height: 190vh;
+    }
+
+    .secFirst_tv img {
+        position: relative;
+        width: 490px;
+        z-index: 10;
+    }
+
+    .secFirst_tv video {
+        position: absolute;
+        margin-left: 65vw;
+        top: 78px;
+        right: 0px;
+        width: 355px;
+    }
+
+    .first_desc {
+        width: 130vw;
+        justify-content: center;
+        align-items: center;
+        padding: 38px 0 0px 96px;
+        margin-left: 182px;
+        gap: 10px
+    }
+    .line{
+        width: 170vw;
+    }
+    .second{
+        flex-direction: column;
+        height: 200vh;
+    }
+    .secSecond_mob img{
+        width: 95vw;
+    }
+    section.second>div{
+        width: 120vw;
+        margin-left: 95vw; 
+    }
+    .first .third>div{
+        width: 113vw;
+        margin-left: 82vw;
+        flex-direction: column;
+        display: flex;
+    }
 }

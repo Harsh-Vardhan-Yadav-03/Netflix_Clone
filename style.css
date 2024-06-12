@@ -147,19 +147,21 @@ nav button {
     position: relative;
     width: 490px;
     z-index: 10;
+    margin-left: 65vw;
+
 }
 
 .secFirst_tv video {
     position: absolute;
-    margin-right: 170px;
-    top: 58px;
+    margin-right: 71px;
+    top: 77px;
     right: 0;
-    width: 380px;
+    width: 352px;
 
 }
 
 
-section.first>div {
+.first_desc{
     display: flex;
     flex-direction: column;
     width: 40vw;
