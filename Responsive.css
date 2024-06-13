@@ -4,6 +4,7 @@
         background-image: url("assets/images/imgbg.jpg");
         width: 170vw;
         height: 130vh;
+        }
     }
 
     .main .box {
@@ -25,18 +26,18 @@
     .secFirst_tv img {
         position: relative;
         width: 490px;
-        z-index: 10;
+        /* z-index: 10; */
     }
 
     .secFirst_tv video {
         position: absolute;
-        margin-left: 65vw;
+        margin-right: -255px;
         top: 78px;
         right: 0px;
         width: 355px;
     }
 
-    .first_desc {
+    .first .first_desc {
         width: 130vw;
         justify-content: center;
         align-items: center;
@@ -58,10 +59,3 @@
         width: 120vw;
         margin-left: 95vw; 
     }
-    .first .third>div{
-        width: 113vw;
-        margin-left: 82vw;
-        flex-direction: column;
-        display: flex;
-    }
-}
